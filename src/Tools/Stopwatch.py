@@ -14,5 +14,5 @@ class Stopwatch:
 
         time_elapsed = (stop_time - start_time)
 
-        print("Algorithm Type: " + sorting_algorithm.get_name() + "\t Array Size: " + array_specs.name + "\tTime: {:,} ns".format(time_elapsed))
+        # print("Algorithm Type: " + sorting_algorithm.get_name() + "\t Array Size: " + array_specs.name + "\tTime: {:,} ns".format(time_elapsed))
         return time_elapsed
